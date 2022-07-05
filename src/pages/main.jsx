@@ -1,7 +1,9 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 class Main extends React.Component {
     todos = [];
+    title = 'Main';
     constructor(props) {
         super(props);
         this.state = {
@@ -28,6 +30,9 @@ class Main extends React.Component {
     render() {
         return (
             <>
+                <Helmet>
+                    <title>{ this.title }</title>
+                </Helmet>
                 <h1>Todo list</h1>
                 <div style={{display: 'flex', 'marginBottom': '20px'}}>
                     <div>
