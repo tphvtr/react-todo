@@ -44,7 +44,7 @@ class Main extends React.Component {
                         />
                         <p style={{margin: '0', color: this.state.name.length < 50 ? 'grey' : 'red'}}>{this.state.name.length}/50</p>
                     </div>
-                    <button style={{height: 'max-content'}}
+                    <button className="button"
                             onClick={() => this.addTodo(this.state.name)}
                             disabled={!this.state.name.length}>Create</button>
                 </div>
