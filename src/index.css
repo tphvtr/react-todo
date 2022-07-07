@@ -6,6 +6,11 @@ html, body {
   font-family: sans-serif, Arial, Helvetica;
   margin: 0;
   height: 100%;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
 }
 
 nav button {
@@ -31,6 +36,7 @@ nav button:hover {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 18px;
+  margin-bottom: 20px;
 }
 
 input {
