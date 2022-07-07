@@ -53,3 +53,8 @@ input {
 .button:hover {
   background-color: #ccc;
 }
+
+.button:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
